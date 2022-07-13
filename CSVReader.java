@@ -34,9 +34,9 @@ public class CSVReader {
         csv1.close();
         csv3.close();
 
-        // Write to the new File compare.csv
+        // Write to the new File output_file.csv
         FileWriter file = new FileWriter("./csv_files/output_file.csv");
-        //iterate through the size of compare.csv and add the lines to it
+        //iterate through the size of output_file.csv and add the lines to it
         try{
             for (int i = 0; i < compare.size(); i++) {
                 output = output + compare.get(i) + "\n";
@@ -45,9 +45,9 @@ public class CSVReader {
         } catch (Exception ex) {
             System.out.println("cannot write to compare.csv file");
         }
-        // write output to the new file compare.csv
+        // write output to the new file output_file.csv
         file.write(output);
-        //close compare.csv file
+        //close output_file.csv file
         file.close();
     }
 }
