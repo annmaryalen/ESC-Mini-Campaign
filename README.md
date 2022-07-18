@@ -8,6 +8,6 @@ For example, given customer files that contain customer id, customer account num
 
 <ol>
 <li> Add your necessary CSV files containing records to be compared in the csv_files folder. </li>
-<li> Modify pathname of your CSV files in lines 13 and 15 in CSVReader.java </li>
+<li> Modify pathname of your CSV files in lines 13 and 15 in CSVMismatchReader.java </li>
 <li> Run CSVReader.java and view results in output_file.csv </li>
 </ol>

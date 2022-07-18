@@ -15,7 +15,7 @@ public class CSVMismatchReader {
         Scanner csv2 = new Scanner(new File("./csv_files/sample_file_3.csv"));
         //use comma to slice the csv file
         csv1.useDelimiter(",");
-        csv2.useDelimiter(",");
+        csv2.useDelimiter(","); 
         //check if sample_file_1.csv has the next line
         while (csv1.hasNextLine()) {
             //if sample_file_1.csv has next line, store next line of sample_file_1.csv in a String
