@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 import java.io.*;
 
-public class CSVReader {
+public class CSVMismatchReader {
     public static void main(String[] args) throws Exception {
 
         // An ArrayList named compare contaning string is created
@@ -11,7 +11,7 @@ public class CSVReader {
         String output = "";
         // scanner is created for sample_file_1.csv
         Scanner csv1 = new Scanner(new File("./csv_files/sample_file_1.csv"));
-        // scanner is created for sample_file_31.csv
+        // scanner is created for sample_file_3.csv
         Scanner csv2 = new Scanner(new File("./csv_files/sample_file_3.csv"));
         //use comma to slice the csv file
         csv1.useDelimiter(",");
